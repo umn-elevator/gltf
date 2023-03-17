@@ -1,4 +1,4 @@
-FROM        node:12.2.0-alpine
+FROM        node:19-alpine
 
 RUN npm install -g obj2gltf
 RUN npm install -g gltf-pipeline
